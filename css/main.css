@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
 body {
     padding: 0;
     margin: 0;
@@ -70,89 +75,45 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
     font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
 }
 
-main {
+.home-main {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-    background-image: url(../assets/img/Cover.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('../assets/img/Cover.png');
     background-position: center;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-main .main-text {
-    margin-top:60px;
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
 }
 
-main .main-text p {
-	font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
-	color: white;
-	letter-spacing: 25px;
-	line-height: 70px;
+.home-main-text {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
 }
-
-main .main-button {
-    margin-bottom: 480px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-main .main-button button {
-    width: 140px;
+.home-main-button {
+    width: 110px;
     height: 50px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    font-weight: bolder;
-    font-size: 17px;
     background-color: #47cfac;
-    cursor: pointer;
-    
+    border: none;
+    display: grid;
+    align-items: center;
 }
 
-main .main-button button:hover {
-    transform: scale(1.12);
-    transition: all 0.8;
-    box-shadow: 0px 0px 5px 5px rgb(40, 138, 121, 0.5);
-}
-
-@media screen and (max-width: 768px){
-    main .main-text {
-        margin-left: 60px;
-        margin-top: 200px;
-    }
-
-    main .main-text p {
-        font-size: 2.2rem;
-        justify-content: center;
-        letter-spacing: 10px;
-
-    }
-    main .main-button {
-        margin-top: 110px;
-    }
-}
-
-@media screen and (max-width: 1100px){
-    main .main-text {
-        margin-left: 60px;
-        margin-top: 200px;
-    }
-
-    main .main-text p {
-        font-size: 2.2rem;
-        justify-content: center;
-        letter-spacing: 10px;
-
-    }
-    main .main-button {
-        margin-top: 110px;
-    }
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
 }
