@@ -12,6 +12,7 @@ a {
     text-decoration: none;
     display: inline;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -38,3 +39,80 @@ header .header-icons-container .icons {
     justify-self: end;
     margin-right: 50px;
 }
+
+header .icons span {
+    color: #fff;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 10px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+main .main-text {
+    margin-top:60px;
+}
+
+main .main-text p {
+	font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+	color: white;
+	letter-spacing: 25px;
+	line-height: 70px;
+}
+
+main .main-button {
+    margin-bottom: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-button button {
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: #47cfac;
+    
+}
+
