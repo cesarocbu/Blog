@@ -3,6 +3,8 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+/*Inicia principal*/
 body {
     padding: 0;
     margin: 0;
@@ -117,3 +119,4 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 18px;
 }
+/*Inicia Blog*/
