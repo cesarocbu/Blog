@@ -91,7 +91,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/Cover.png');
+    background-image: url('../assets/img/wallpaperbetter.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,12 +106,14 @@ nav .profile-link a {
 }
 
 .home-main-text {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #fff;
+
+
 }
 .home-main-button {
     width: 110px;
@@ -237,13 +239,13 @@ footer p {
     min-height: 250px;
     background-color: #e6e9ed;
     text-align: center;
-    padding-bottom: 50px;
+
+    display: flex;
 }
 
 .contact-main-container div {
     display: inline-block;
-    width: 49.5%;
-    height: 100%;
+    width: 100%;
 }
 
 .contact-main-container div a {
@@ -251,11 +253,11 @@ footer p {
     padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left, .contact-right {
-    text-align: initial;
-    margin-top: 85px;
+.contact-main-container .contact-left {
+    text-align: center;
 }
 
 .contact-main-container img {
-    width: 100px;
+    width: 130px;
+
 }
