@@ -8,6 +8,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .home-body {
     position: fixed;
@@ -20,6 +21,7 @@ body {
 .grid-container {
     max-width: 980px;
     margin: auto;
+    
 }
 
 a {
@@ -150,7 +152,7 @@ nav .profile-link a {
 }
 
 .blogs-news-img-container img {
-    width: 85%
+    width: 85%;
 }
 
 .blogs-news-info-container {
